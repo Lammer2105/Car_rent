@@ -1,0 +1,11 @@
+.btn-group input {
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    height: 50%;
+}
+
+.btn-group input:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}

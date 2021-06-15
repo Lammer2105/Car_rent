@@ -1,0 +1,48 @@
+body {
+ background: #cecdcc; /* Цвет фона */
+}
+h2 {
+ margin-top: 0; /* Отступ сверху */
+}
+#container {
+ margin: 0 auto; /* Выравнивание по центру */
+ background: #f2eef1; /* Цвет фона левой колонки */
+}
+#header {
+ text-align: center; /* Выравнивание по центру */
+ padding: 5px; /* Отступы вокруг текста */
+ background: #bfb7bd; /* Цвет фона шапки */
+ color: #400000; /* Цвет текста */
+}
+#sidebar {
+ margin-top: 10px; 
+ padding: 0 10px; /* Отступы вокруг текста */
+ float: left; /* Обтекание по правому краю */
+}
+#content {
+ margin-left: 130px; /* Отступ слева */
+ padding: 10px; /* Поля вокруг текста */
+}
+#footer {
+ background: #8fa09b; /* Цвет фона подвала */
+ color: #fff; /* Цвет текста */
+ padding: 5px; /* Отступы вокруг текста */
+ clear: left; /* Отменяем действие float */
+}
+a:hover{
+    border: rgb(165, 94, 94) 1px dashed;
+}
+header:hover{
+    color:rgb(182, 92, 32);
+}
+.order_form{
+    padding: 8px;
+    width: fit-content;
+    border: #7B5427 2px solid;
+}
+#succes{
+	color:green;
+}
+#fail{
+	color:red;
+}
